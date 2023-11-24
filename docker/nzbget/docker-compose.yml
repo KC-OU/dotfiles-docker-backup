@@ -1,0 +1,13 @@
+version: '2'
+services:
+        nzbget:
+              image: linuxserver/nzbget
+              container_name: nzbget
+              volumes:
+                   - /path/to/nzbget/config:/config
+                   - /path/to/nzbget/downloads:/downloads
+              restart: always
+              environment:
+                  - TZ=Europe/London
+              ports:
+                  - 6789:6789

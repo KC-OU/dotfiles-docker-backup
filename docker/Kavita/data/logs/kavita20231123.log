@@ -1,0 +1,30 @@
+[Kavita] [2023-11-23 16:53:42.006 +00:00  1] [Information] API.Services.TaskScheduler Scheduling reoccurring tasks
+[Kavita] [2023-11-23 16:53:42.180 +00:00  1] [Debug] API.Services.TaskScheduler Scheduling Scan Library Task for daily
+[Kavita] [2023-11-23 16:53:42.660 +00:00  1] [Debug] API.Services.TaskScheduler Scheduling Backup Task for daily
+[Kavita] [2023-11-23 16:53:42.834 +00:00  1] [Information] API.Services.TaskScheduler Scheduling Auto-Update tasks
+[Kavita] [2023-11-23 16:53:42.867 +00:00  1] [Debug] API.Services.TaskScheduler Scheduling stat collection daily
+[Kavita] [2023-11-23 16:53:43.226 +00:00  11] [Information] API.Program Running Migrations
+[Kavita] [2023-11-23 16:53:43.358 +00:00  11] [Fatal] API.Program Running MigrateLoginRoles migration
+[Kavita] [2023-11-23 16:53:43.432 +00:00  11] [Information] API.Program MigrateLoginRoles migration complete
+[Kavita] [2023-11-23 16:53:43.443 +00:00  11] [Fatal] API.Program Running MigrateRemoveWebPSettingRows migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2023-11-23 16:53:43.455 +00:00  11] [Fatal] API.Program Running MigrateRemoveWebPSettingRows migration - complete. Nothing to do
+[Kavita] [2023-11-23 16:53:43.516 +00:00  11] [Fatal] API.Program Running MigrateExistingRatings migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2023-11-23 16:53:43.578 +00:00  11] [Fatal] API.Program Running MigrateExistingRatings migration - Completed. This is not an error
+[Kavita] [2023-11-23 16:53:43.630 +00:00  11] [Information] API.Program Running Migrations - complete
+[Kavita] [2023-11-23 16:53:44.544 +00:00  1] [Information] API.Startup Starting with base url as /
+[Kavita] [2023-11-23 16:53:44.675 +00:00  1] [Information] Microsoft.Hosting.Lifetime Now listening on: http://[::]:5000
+[Kavita] [2023-11-23 16:53:44.768 +00:00  1] [Information] Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+[Kavita] [2023-11-23 16:53:44.770 +00:00  1] [Information] Microsoft.Hosting.Lifetime Hosting environment: Production
+[Kavita] [2023-11-23 16:53:44.771 +00:00  1] [Information] Microsoft.Hosting.Lifetime Content root path: /kavita
+[Kavita] [2023-11-23 18:17:05.796 +00:00  128] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET / responded 200 in 233.2652 ms
+[Kavita] [2023-11-23 18:17:06.902 +00:00  135] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/theme responded 200 in 547.7760 ms
+[Kavita] [2023-11-23 18:17:08.212 +00:00  131] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/admin/exists responded 200 in 78.7082 ms
+[Kavita] [2023-11-23 18:17:08.266 +00:00  128] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/admin/exists responded 200 in 5.4961 ms
+[Kavita] [2023-11-23 18:17:28.952 +00:00  131] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/account/register responded 200 in 1599.5595 ms
+[Kavita] [2023-11-23 18:17:29.006 +00:00  131] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/admin/exists responded 200 in 7.1430 ms
+[Kavita] [2023-11-23 18:17:33.560 +00:00  131] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/account/login responded 401 in 338.7342 ms
+[Kavita] [2023-11-23 18:17:42.977 +00:00  131] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/account/login responded 401 in 517.5203 ms
+[Kavita] [2023-11-23 18:17:47.705 +00:00  129] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/account/login responded 401 in 290.3422 ms
+[Kavita] [2023-11-23 18:17:51.641 +00:00  128] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/account/login responded 401 in 137.8474 ms
+[Kavita] [2023-11-23 18:17:54.854 +00:00  128] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/account/login responded 401 in 136.4390 ms
+[Kavita] [2023-11-23 18:17:56.218 +00:00  119] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/account/login responded 401 in 31.8885 ms
